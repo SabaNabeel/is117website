@@ -1,0 +1,170 @@
+/*
+  * What follows is the result of much research on cross-browser styling.
+  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+  * Kroc Camen, and the H5BP dev community and team.
+  */
+ 
+ /* ==========================================================================
+    Base styles: opinionated defaults
+    ========================================================================== */
+ 
+ html {
+     color: #222;
+     font-size: 1em;
+     line-height: 1.4;
+ }
+ 
+ /*
+  * Remove text-shadow in selection highlight:
+  * https://twitter.com/miketaylr/status/12228805301
+  *
+  * These selection rule sets have to be separate.
+  * Customize the background color to match your design.
+  */
+ 
+ ::selection {
+     background: #b3d4fc;
+     text-shadow: none;
+ }
+ 
+ /*
+  * A better looking default horizontal rule
+  */
+ 
+ hr {
+     display: block;
+     height: 500px;
+     border: 0;
+     border-top: 1px solid #ccc;
+     margin: 1em 0;
+     padding: 0;
+	 @color: black;
+ }
+ 
+ /*
+  * Remove the gap between audio, canvas, iframes,
+  * images, videos and the bottom of their containers:
+  * https://github.com/h5bp/html5-boilerplate/issues/440
+  */
+ 
+ audio,
+ canvas,
+ iframe,
+ img,
+ svg,
+ video {
+     vertical-align: middle;
+ }
+ 
+ /*
+  * Remove default fieldset styles.
+  */
+ 
+ fieldset {
+     border: 0;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ /*
+  * Allow only vertical resizing of textareas.
+  */
+ 
+ textarea {
+     resize: vertical;
+ }
+ 
+ /* ==========================================================================
+    Browser Upgrade Prompt
+    ========================================================================== */
+ 
+ .browserupgrade {
+     margin: 0.2em 0;
+     background: #ccc;
+     color: #000;
+     padding: 0.2em 0;
+ }
+ 
+ /* ==========================================================================
+    Author's custom styles
+    ========================================================================== */
+ li {
+      display:inline;
+    }
+ ul {
+      margin: 0px;
+      padding: 0px;
+-   }
+
+body {
+     margin: 5px;
+    }
+  
+ }
+ #wrapper {
+	background-color: powderblue;
+   width: 960px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ #banner {
+   /*@clear: both;
+   @background-image: url("../img/BobKahn.jpg");*/
+   height: 500px;
+   @background-size: cover;
+   width: 960px;
+   background-repeat: no-repeat;
+   @background-position: 75% 25%;
+   
+ }
+ #banner h1 {
+   margin: 0px;
+   padding: 0px;
+ }
+ #header {
+   @background-color:purple;
+   height: 70px;
+   line-height: 70px;
+ }
+ #menu {
+   background-color:blue;
+   width: 100%;
+   float: left;
+   font-size: 25px
+ 
+ }
+ #menu a {
+   color: white;
+ }
+ 
+ #logo {
+   background-color: red;
+   width: 100%;
+   color: white;
+   float: left;
+   text-align: center;
+ }
+ #logo h1 {
+   padding: 0px;
+   margin: 0px;
+   @background-color: orange;
+ }
+ 
+ #banner h1 {
+   width: 100%;
+   background-color: green;
+ }
+#footer {
+   background-color: orange;
+   clear: both;
+ }
+ 
+#heading {
+   background-color: red;
+   width: 100%;
+   color: white;
+   float: left;
+   text-align: center;
+ }
+ 
+ 
